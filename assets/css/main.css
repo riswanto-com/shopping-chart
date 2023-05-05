@@ -1,0 +1,32 @@
+body {
+	padding-top: 0;
+}
+.bg-blue-color{
+    background: #2FACFF;
+	color: #fcf9f9;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
+}
+.bg-blue-color .navbar-brand{
+    color: #fcf9f9;
+}
+.bg-blue-color .nav-link{
+    font-weight: 500;
+}
+#offcanvasNavbarLabel{
+    color: black;
+}
+.content-main{
+    margin-top: 60px;
+}
+.class-href{
+    text-decoration: none;
+}
+.dash-content{
+    margin-top:30px;
+}
+#cursol-list{
+    cursor: pointer;
+}
+.hidden {
+	display: none;
+}
