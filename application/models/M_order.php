@@ -51,7 +51,7 @@ class M_order extends CI_Model
                 "ppn" => $ppn,
                 "total" => $totalNett,
             );
-            // $this->db->where('order_id',$orderId['data']['order_id'])->update('order_header', $dataOrder);
+            $this->db->where('order_id',$orderId['data']['order_id'])->update('order_header', $dataOrder);
             $listProduct=$this->orderDetail('view',$orderId['data']['order_id']);
 
             if($listProduct['data']->num_rows()>0){
